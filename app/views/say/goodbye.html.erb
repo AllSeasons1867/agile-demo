@@ -5,3 +5,8 @@
 <p>
     Say <%= link_to 'Hello', say_hello_path %> again
 </p>
+<p>
+    <% @files.each do |file| %>
+        <div>file name is: <%= file %></div>
+    <% end %>
+</p>
